@@ -1,0 +1,26 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.springframework.boot:spring-boot-gradle-plugin:2.4.1'
+    }
+}
+
+plugins {
+    id 'java'
+    id 'idea'
+    id 'eclipse'
+    id 'org.springframework.boot' version '2.4.1'
+}
+
+group 'com.teamtreehouse'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web:2.4.1'
+}
